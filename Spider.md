@@ -1,9 +1,9 @@
 # MLP spider inverse kinematic model
 
 To date (Jul 19 2024), there are five relevated files related to our application.
-- inverseKinematics.py
-- mlp_model.py
-- load_inverseKinematics_mode.py
+- [inverseKinematics.py](https://github.com/Chainplain/Naive_Spider/blob/master/inverseKinematics.py)
+- [mlp_model.py](https://github.com/Chainplain/Naive_Spider/blob/master/mlp_model.py)
+- [load_inverseKinematics_mode.py](https://github.com/Chainplain/Naive_Spider/blob/master/load_inverseKinematics_mode.py)
 - mlp_model_inverse_kinematics.pth
 - inverse_kinematics_mode_structure.npy
 
@@ -84,8 +84,11 @@ Then we show how the comparisons between actual side and the predicted side are 
 - Forward: ```spider_forward_T```
 - Inverse: ```mlp_model```
 
-Then we compra the angles:
+Then we compare the angles:
+![Figure_1](https://github.com/user-attachments/assets/82dfc9e2-5220-474f-a086-c228d51389e7)
 
+and the poss:
+![Figure_2](https://github.com/user-attachments/assets/988165f5-080b-4336-8e59-b5d886a751fb)
 
  
  
